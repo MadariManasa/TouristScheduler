@@ -1,0 +1,7 @@
+{
+  "hotels": [
+    { "name": "Hotel Paradise", "location": "City Center", "price": 150 },
+    { "name": "Ocean View Resort", "location": "Beach", "price": 200 },
+    { "name": "Mountain Retreat", "location": "Hills", "price": 180 }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "flights": [
+    { "name": "Flight 101", "departure": "10:00 AM", "arrival": "1:00 PM", "price": 200 },
+    { "name": "Flight 102", "departure": "2:00 PM", "arrival": "5:00 PM", "price": 180 },
+    { "name": "Flight 103", "departure": "6:00 PM", "arrival": "9:00 PM", "price": 220 }
+  ]
+}

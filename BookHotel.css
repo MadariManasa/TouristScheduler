@@ -1,0 +1,40 @@
+.book-hotel-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.hotel-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 220px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.hotel-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #888;
+}
+
+.hotel-card.selected {
+  border: 2px solid #007bff;
+  background-color: #e7f0ff;
+}
+
+.create {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

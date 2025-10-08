@@ -1,0 +1,57 @@
+/* Background for the whole page */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #e5e7eb; /* light gray background */
+  font-family: Arial, sans-serif;
+}
+
+/* Login container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  padding: 40px;
+  margin: auto;
+  margin-top: 25vh; /* vertical spacing from top */
+  background-color: #ffffff; /* white login box */
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* soft shadow for distinction */
+}
+
+/* Headings */
+.login-container h1 {
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* Inputs */
+.login-container input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Button */
+.login-container button {
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #2563eb;
+}

@@ -1,0 +1,105 @@
+.create-trip-page {
+  padding: 30px;
+  font-family: sans-serif;
+  color: #111827;
+}
+
+.create-trip-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.create-trip-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.calendar-container {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.trip-form {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trip-form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.trip-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #2563eb;
+}
+
+/* Dark Mode */
+.dark-mode .create-trip-page {
+  background-color: #1f2937;
+  color: white;
+}
+
+.dark-mode .calendar-container,
+.dark-mode .trip-form {
+  background-color: #374151;
+}
+
+.dark-mode .trip-form input {
+  background-color: #1f2937;
+  color: white;
+  border: 1px solid #6b7280;
+}
+
+.dark-mode .submit-btn {
+  background-color: #2563eb;
+}
+
+.dark-mode .submit-btn:hover {
+  background-color: #1e40af;
+}
+.create-trip-container {
+  display: flex;
+  gap: 40px; /* space between calendar and form */
+  justify-content: flex-start; /* align items to the left */
+  flex-wrap: wrap;
+}
+
+/* Move calendar slightly to the right */
+.calendar-container {
+  margin-left: 20px; /* adjust this value as needed */
+  flex: 1; /* optional: make it responsive */
+}
+
+/* Form styling */
+.trip-form {
+  flex: 1; /* take remaining space */
+}
